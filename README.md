@@ -8,14 +8,22 @@ Pour installer les dépendances, il suffit de lancer la commande :
 
 ```npm install```
 
-
-## Utilsiation
+## Utilisation
 
 Pour lancer le script, il suffit de lancer la commande :
 
-```ts-node src/sample.ts```
+```
+cd src
+ts-node sample.ts
+```
 
 Un fichier `sample.mse` sera alors généré à la racine du projet.
+
+## Déboguer en VSCode
+
+- Ouvrir un **JavaScript debug terminal**
+- `cd src` (afin d'être au niveau du bon `tsconfig.json`)
+- `ts-node sample.ts`
 
 ## Références
 

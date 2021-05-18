@@ -11,7 +11,7 @@ var fmxTypes = new Map<string, Famix.Type>();
 var allClasses = [];
 var allInterfaces = [];
 
-var filePaths = ["**/resources/**.ts",
+var filePaths = ["../**/resources/**.ts",
                 ];
 
 try {
